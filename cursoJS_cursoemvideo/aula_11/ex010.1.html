@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Onde você nasceu?</h1>
+    <input type="text" name ='nation' id="ination">
+    <input type="button" value="enviar" onclick="clicar()">
+    
+    <div id="resp">
+
+    </div>
+
+    <script>
+     function clicar(){
+        var nation = window.document.getElementById('ination')
+        var r = window.document.getElementById('resp')   
+            if (nation.value == 'Brasil') {
+                r.innerText = 'Brasileiro.'
+            } else {
+                r.innerText = 'Estrangeiro.'
+            }
+     }
+    </script>
+</body>
+</html>
