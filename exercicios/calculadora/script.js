@@ -1,11 +1,37 @@
-function calcular (){
-    var x1 = document.getElementById('x1')
-    var x2 = ducument.getElementById('x2')
-    var res = ducument.getElementById('resultado')
 
-    if (x1.value.length == 0 || x2.value.length == 0){
-        alert('Dados Inválidos')
-    } else{
-        alert('Ok')
-    }
+
+function somar(){
+    let a = document.getElementById('x1')
+    let x1 = Number(a.value)
+    let b = document.getElementById('x2')
+    let x2 = Number(b.value)
+    let res = document.getElementById('resultado')
+    res.textContent = x1 + x2
+}
+
+function subtrair(){
+    let a = document.getElementById('x1')
+    let x1 = Number(a.value)
+    let b = document.getElementById('x2')
+    let x2 = Number(b.value)
+    let res = document.getElementById('resultado')
+    res.textContent = x1 - x2
+}
+
+function multiplicar(){
+    let a = document.getElementById('x1')
+    let x1 = Number(a.value)
+    let b = document.getElementById('x2')
+    let x2 = Number(b.value)
+    let res = document.getElementById('resultado')
+    res.textContent = x1 * x2
+}
+
+function dividir(){
+    let a = document.getElementById('x1')
+    let x1 = Number(a.value)
+    let b = document.getElementById('x2')
+    let x2 = Number(b.value)
+    let res = document.getElementById('resultado')
+    res.textContent = x1 / x2
 }
