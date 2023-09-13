@@ -20,6 +20,10 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
 }
 
+select#iquadro{
+    width: 150px;
+}
+
 footer{
     color: white;
     text-align: center;
